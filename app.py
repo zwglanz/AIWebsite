@@ -49,4 +49,8 @@ def handle_query():
     return jsonify({"answer": answer})
 
 if __name__ == '__main__':
+<<<<<<< Updated upstream
     app.run(debug=False)  # Change debug to False for production
+=======
+    app.run(debug=False)  # Change debug to False for production
+>>>>>>> Stashed changes
